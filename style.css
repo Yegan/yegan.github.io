@@ -51,3 +51,7 @@ margin: 1em;
    letter-spacing: 0.1px;
    line-height: 22px;
  }
+
+ .links img{
+   margin-left: 1em;
+ }
