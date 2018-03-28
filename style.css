@@ -34,6 +34,7 @@ margin: 1em;
  }
 /* front-end-projects                                 */
 
+
  .front-end {
 margin: 1em;
  }
@@ -53,5 +54,30 @@ margin: 1em;
  }
 
  .links img{
+   margin-left: 1em;
+ }
+ /* back-end-projects                           */
+
+ .back-end {
+margin: 1em;
+ }
+
+ .back-end p{
+   font-family: sans-serif;
+   font-size: 13px;
+   letter-spacing: 0.1px;
+   line-height: 15px;
+ }
+
+ .back-end h4{
+   font-family: sans-serif;
+   font-size: 20px;
+   letter-spacing: 0.1px;
+   line-height: 22px;
+ }
+
+ .back-end img{
+   height: 15em;
+   width: 75%;
    margin-left: 1em;
  }
