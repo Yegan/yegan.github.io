@@ -6,4 +6,15 @@ margin: 0;
 
 .header img{
   width: 100%;
+  }
+
+  .info {
+margin: 1em;
+  }
+
+.info p{
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  line-height: 22px;
 }
