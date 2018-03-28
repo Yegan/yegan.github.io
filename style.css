@@ -24,3 +24,11 @@ margin: 1em;
    letter-spacing: 0.1px;
    line-height: 15px;
  }
+
+ .pic img{
+   height: 10em;
+   width: 55%;
+   margin: auto;
+   margin-left: 5em;
+   border-radius: 45%;
+ }
