@@ -3,81 +3,108 @@ padding: 0;
 margin: 0;
 
 }
+/* Nav bar            */
+.nav{
+margin-top: -1em;
+}
 
-.header img{
+.nav a{
+ width : 45;
+ text-decoration : none;
+
+}
+
+.nav a p:hover {
+  background-color : orange;
+}
+
+.nav p{
+
+font-family: sans-serif;
+font-size: 15px;
+letter-spacing: 0.1px;
+line-height: 15px;
+}
+
+
+
+
+/* About            */
+#header img{
   width: 100%;
   }
 
-  .info {
+  #info {
 margin: 1em;
   }
 
-.info h4{
+#info h4{
   font-family: sans-serif;
   font-size: 20px;
   letter-spacing: 0.1px;
   line-height: 22px;
 }
- .info p{
+ #info p{
    font-family: sans-serif;
    font-size: 13px;
    letter-spacing: 0.1px;
    line-height: 15px;
  }
 
- .pic img{
+ #pic img{
    height: 10em;
    width: 55%;
    margin: auto;
    margin-left: 5em;
    border-radius: 45%;
  }
+
 /* front-end-projects                                 */
 
 
- .front-end {
+ #front-end {
 margin: 1em;
  }
 
- .front-end p{
+ #front-end p{
    font-family: sans-serif;
    font-size: 13px;
    letter-spacing: 0.1px;
    line-height: 15px;
  }
 
- .front-end h4{
+ #front-end h4{
    font-family: sans-serif;
    font-size: 20px;
    letter-spacing: 0.1px;
    line-height: 22px;
  }
 
- .links img{
-   margin-left: 1em;
+ #links img{
+
  }
  /* back-end-projects                           */
 
- .back-end {
+ #back-end {
 margin: 1em;
  }
 
- .back-end p{
+ #back-end p{
    font-family: sans-serif;
    font-size: 13px;
    letter-spacing: 0.1px;
    line-height: 15px;
  }
 
- .back-end h4{
+ #back-end h4{
    font-family: sans-serif;
    font-size: 20px;
    letter-spacing: 0.1px;
    line-height: 22px;
  }
 
- .back-end img{
+ #back-end img{
    height: 15em;
    width: 75%;
-   margin-left: 1em;
+   margin-left: 0.5em;
  }
