@@ -12,18 +12,23 @@ margin-top: -1em;
  width : 45;
  text-decoration : none;
 
+
 }
 
 .nav a p:hover {
   background-color : orange;
+  width: 45%;
+  border-radius: 40%;
 }
 
 .nav p{
-
+margin: 1em;
+margin-left: 1.5em;
 font-family: sans-serif;
 font-size: 15px;
 letter-spacing: 0.1px;
 line-height: 15px;
+border: 1px orange;
 }
 
 
