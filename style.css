@@ -11,27 +11,17 @@ margin-top: -1em;
 .nav a{
  width : 45;
  text-decoration : none;
-
-
-}
-
-.nav a p:hover {
-  background-color : orange;
-  width: 45%;
-  border-radius: 40%;
 }
 
 .nav p{
 margin: 1em;
 margin-left: 1.5em;
 font-family: sans-serif;
-font-size: 15px;
+font-size: 10px;
 letter-spacing: 0.1px;
 line-height: 15px;
 border: 1px orange;
 }
-
-
 
 
 /* About            */
@@ -113,3 +103,25 @@ margin: 1em;
    width: 75%;
    margin-left: 0.5em;
  }
+
+ /* Media Query for larger screen */
+
+ @media(min-width: 500px) {
+
+.container{
+  text-align: center;
+  }
+
+  #pic img{
+    width: 25%;
+  }
+
+#back-end-projects img{
+  height: 15em;
+  width: 35%;
+}
+
+
+
+
+}
