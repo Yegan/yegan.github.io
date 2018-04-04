@@ -20,13 +20,14 @@ font-family: sans-serif;
 font-size: 10px;
 letter-spacing: 0.1px;
 line-height: 15px;
-border: 1px orange;
+
 }
 
 
 /* About            */
 #header img{
   width: 100%;
+
   }
 
   #info {
@@ -47,12 +48,11 @@ margin: 1em;
  }
 
  #pic img{
-   height: 10em;
-   width: 55%;
+   margin-left: 2em;
+   width: 45%;
    margin: auto;
    margin-left: 5em;
-   border-radius: 45%;
- }
+    }
 
 /* front-end-projects                                 */
 
@@ -75,7 +75,19 @@ margin: 1em;
    line-height: 22px;
  }
 
+ #front-end h3{
+   font-family: sans-serif;
+   font-size: 28px;
+   letter-spacing: 0.1px;
+   line-height: 22px;
+ }
+
  #links img{
+   width: 100%;
+ }
+
+ .projects img{
+   width: 100%;
 
  }
  /* back-end-projects                           */
@@ -98,30 +110,65 @@ margin: 1em;
    line-height: 22px;
  }
 
- #back-end img{
-   height: 15em;
-   width: 75%;
-   margin-left: 0.5em;
+ #back-end h3{
+   font-family: sans-serif;
+   font-size: 28px;
+   letter-spacing: 0.1px;
+   line-height: 22px;
+ }
+
+
+
+ /* Footer                  */
+
+ .footer{
+   height: 2.5em;
+   background-color: #5B5A5A;
+   width: 100%;
+ }
+
+ .footer p{
+   font-family: sans-serif;
+   font-size: 13px;
+   letter-spacing: 0.1px;
+   line-height: 15px;
+   color: white;
  }
 
  /* Media Query for larger screen */
 
- @media(min-width: 500px) {
+ @media(min-width: 1024px) {
 
 .container{
   text-align: center;
   }
 
   #pic img{
+    margin-left: 2em;
     width: 25%;
   }
 
-#back-end-projects img{
-  height: 15em;
-  width: 35%;
+
+  .projects img{
+    width: 300px;
+  }
+
+.front-end-projects{
+  width: 30%;
+  float: left;
+  margin-left: 1.5em;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
-
+#back{
+margin: auto;
+text-align: center;
+width: 85%;
+}
 
 }
